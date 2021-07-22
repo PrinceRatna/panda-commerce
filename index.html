@@ -13,8 +13,8 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class=" pt-2 ps-5 pe-5 pb-5 header-bg-color">
+<body class="d-md-flex flex-md-column justify-content-md-center align-items-md-center ">
+  <header class=" pt-2 ps-5 pe-5 pb-3 mb-5 header-bg-color">
        <!-- navigation bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light container">
         <div class="container-fluid">
@@ -60,7 +60,7 @@
     
           </div>
           <div class="col-md-7 col-lg-5">
-            <div id="carouselExampleControls" class="carousel slide" style="width: 402px;height: 378px;"data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide"data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active"style="height: 378px;">
                   <img src="images/banner-images/headphone.png" class="d-block w-100 h-100"alt="...">
@@ -68,7 +68,7 @@
                 <div class="carousel-item "style="height: 378px;">
                   <img src="images/banner-images/tv.png" class="d-block w-100 h-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item"style="height: 378px;" >
                   <img src="images/banner-images/xbox.png" class="d-block w-100 h-100" alt="...">
                 </div>
               </div>
@@ -92,16 +92,16 @@
      <section>
       <div class="container mt-5">
         <h3 class="fw-600 fs-4 ">Catagoris</h3>
-         <div class="btn-group mt-5 d-flex justify-content-between "style="max-width:1128px;max-height:120px;" role="group" aria-label="Basic mixed styles example"> 
+         <div class="btn-group  mt-5 d-flex justify-content-between flex-column flex-md-row"style="max-width:1128px; " role="group" aria-label="Basic mixed styles example"> 
           <button type="button"style="max-width:359px;max-height:120px;"
-           class="btn btn-danger border-0 watch-bg-color"> Watch  <img style="max-width: 68.21px;max-height: 90px;" src="images/categories/watch.png" alt=""></button>
-          <button type="button"style="max-width:359px;max-height:120px;" class="btn btn-warning text-white ms-4 me-4 border-0 bag-bg-color">Bag <img src=" images/categories/bag.png"style="max-width:68.21px;max-height: 90px;" alt=""></button>
-          <button type="button"style="max-width:359px;max-height:120px;" class="btn btn-success border-0 shoes-bg-color">Shoes <img src="images/categories/shoes.png"style="max-width:68.21px;max-height: 90px;" alt=""></button>
+           class="btn btn-danger ms-2 me-2 border-0 watch-bg-color"> Watch  <img style="max-width: 68.21px;max-height: 90px;" src="images/categories/watch.png" alt=""></button>
+          <button type="button"style="max-width:359px;max-height:120px;" class="btn btn-warning text-white ms-2 me-2 border-0  bag-bg-color">Bag <img src=" images/categories/bag.png"style="max-width:68.21px;max-height: 90px;" alt=""></button>
+          <button type="button"style="max-width:359px;max-height:120px;" class="btn btn-success ms-2 me-2 border-0 shoes-bg-color">Shoes <img src="images/categories/shoes.png"style="max-width:68.21px;max-height: 90px;" alt=""></button>
         </div>
        </div> 
     </section>
 </header>
-  <main class="pt-2 pb-2 ps-5 pe-5 mt-0 main-bg-color">
+  <main class="pt-2 pb-2 ps-5 pe-5  main-bg-color">
    
     <!-- card section -->
     <section class="mt-5">
@@ -221,9 +221,16 @@
 
      </p>
     <div class="input-group mb-3 w-50 mx-auto">
-      <input type="email" class="form-control border-0" placeholder="Enter Your E-mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+      
+        <input type="email" class="form-control border-0" placeholder="E-mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+      
+     
       <button class="btn btn-outline-secondary button border-0" type="button" id="button-addon2">Send</button>
+    
+    
+     
     </div>
+
    </div>
   </footer>
   
